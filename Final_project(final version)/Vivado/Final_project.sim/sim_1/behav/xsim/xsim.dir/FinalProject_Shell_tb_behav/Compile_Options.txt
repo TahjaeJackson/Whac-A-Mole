@@ -1,0 +1,1 @@
+--debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "FinalProject_Shell_tb_behav" "xil_defaultlib.FinalProject_Shell_tb" -log "elaborate.log" 

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FinalProject_Shell_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FinalProject_Shell_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="831.001 ns"></ZoomEndTime>
+      <Cursor1Time time="13,830,255.114 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="142"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/FinalProject_Shell_tb/clk_port" type="logic">
+      <obj_property name="ElementShortName">clk_port</obj_property>
+      <obj_property name="ObjectShortName">clk_port</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/start_sig" type="logic">
+      <obj_property name="ElementShortName">start_sig</obj_property>
+      <obj_property name="ObjectShortName">start_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/button1_button_mp" type="logic">
+      <obj_property name="ElementShortName">button1_button_mp</obj_property>
+      <obj_property name="ObjectShortName">button1_button_mp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/button2_button_mp" type="logic">
+      <obj_property name="ElementShortName">button2_button_mp</obj_property>
+      <obj_property name="ObjectShortName">button2_button_mp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/button3_button_mp" type="logic">
+      <obj_property name="ElementShortName">button3_button_mp</obj_property>
+      <obj_property name="ObjectShortName">button3_button_mp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/button4_button_mp" type="logic">
+      <obj_property name="ElementShortName">button4_button_mp</obj_property>
+      <obj_property name="ObjectShortName">button4_button_mp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/button5_button_mp" type="logic">
+      <obj_property name="ElementShortName">button5_button_mp</obj_property>
+      <obj_property name="ObjectShortName">button5_button_mp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/led1" type="logic">
+      <obj_property name="ElementShortName">led1</obj_property>
+      <obj_property name="ObjectShortName">led1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/led2" type="logic">
+      <obj_property name="ElementShortName">led2</obj_property>
+      <obj_property name="ObjectShortName">led2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/led3" type="logic">
+      <obj_property name="ElementShortName">led3</obj_property>
+      <obj_property name="ObjectShortName">led3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/led4" type="logic">
+      <obj_property name="ElementShortName">led4</obj_property>
+      <obj_property name="ObjectShortName">led4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/led5" type="logic">
+      <obj_property name="ElementShortName">led5</obj_property>
+      <obj_property name="ObjectShortName">led5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/seg_port" type="array">
+      <obj_property name="ElementShortName">seg_port[0:6]</obj_property>
+      <obj_property name="ObjectShortName">seg_port[0:6]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/dut/datapath/highscore" type="array">
+      <obj_property name="ElementShortName">highscore[5:0]</obj_property>
+      <obj_property name="ObjectShortName">highscore[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/dut/datapath/current_score" type="array">
+      <obj_property name="ElementShortName">current_score[5:0]</obj_property>
+      <obj_property name="ObjectShortName">current_score[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/dut/datapath/hs_greater" type="logic">
+      <obj_property name="ElementShortName">hs_greater</obj_property>
+      <obj_property name="ObjectShortName">hs_greater</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/dut/datapath/button_light_sig" type="logic">
+      <obj_property name="ElementShortName">button_light_sig</obj_property>
+      <obj_property name="ObjectShortName">button_light_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/dut/datapath/cs_greater" type="logic">
+      <obj_property name="ElementShortName">cs_greater</obj_property>
+      <obj_property name="ObjectShortName">cs_greater</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/dut/datapath/equal" type="logic">
+      <obj_property name="ElementShortName">equal</obj_property>
+      <obj_property name="ObjectShortName">equal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FinalProject_Shell_tb/dut/led_lfsr/light_output" type="array">
+      <obj_property name="ElementShortName">light_output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">light_output[15:0]</obj_property>
+   </wvobject>
+</wave_config>

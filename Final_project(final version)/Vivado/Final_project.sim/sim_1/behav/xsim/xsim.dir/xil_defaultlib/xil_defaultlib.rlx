@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sim_1/new/FinalProject_Shell_tb.vhd,1693289148,vhdl,,,,finalproject_shell_tb,,,,,,,,
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sources_1/new/FinalProject_Controller.vhd,1693284991,vhdl,,,,finalproject_controller,,,,,,,,
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sources_1/new/FinalProject_Display.vhd,1693286045,vhdl,,,,finalproject_display,,,,,,,,
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sources_1/new/FinalProject_LFSR.vhd,1693285888,vhdl,,,,finalproject_lfsr,,,,,,,,
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sources_1/new/FinalProject_datapath.vhd,1693285852,vhdl,,,,finalproject_datapath,,,,,,,,
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sources_1/new/FinalProject_shell.vhd,1693285092,vhdl,,,,finalproject_shell,,,,,,,,
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sources_1/new/button_interface.vhd,1693287527,vhdl,,,,button_interface,,,,,,,,
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sources_1/new/mux7seg.vhd,1692979542,vhdl,,,,mux7seg,,,,,,,,
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sources_1/new/system_clock_generation.vhd,1693284846,vhdl,,,,system_clock_generation,,,,,,,,
+O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sources_1/new/tick_generator.vhd,1693284859,vhdl,,,,tick_generator,,,,,,,,

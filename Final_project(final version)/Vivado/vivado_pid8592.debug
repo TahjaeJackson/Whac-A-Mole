@@ -1,0 +1,29 @@
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2021.2 (64-bit)
+# SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Current time: Mon Aug 28 12:10:12 EDT 2023
+# Process ID (PID): 8592
+# User: f0056cj
+# OS: Windows 10
+# Project: Final_project
+# Part: Basys3 (xc7a35tcpg236-1)
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Mon Aug 28 12:10:12 EDT 2023
+ui.utils.j: ui.frmwork.cmd.CommandFailedException: boost::filesystem::status: Access is denied: "O:/ENGS 31/Final_project/Vivado/Final_project.runs/impl_1/FinalProject_shell_utilization_placed.pb" ui.frmwork.cmd.CommandFailedException: boost::filesystem::status: Access is denied: "O:/ENGS 31/Final_project/Vivado/Final_project.runs/impl_1/FinalProject_shell_utilization_placed.pb"
+	at ui.project.projecti.HAPRRunMgr_updateAllRuns(Native Method)
+	at ui.data.experiment.D.cIz(SourceFile:210)
+	at ui.data.experiment.F.aXx(SourceFile:383)
+	at ui.frmwork.y.run(SourceFile:206)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+	at ui.utils.d.c.p(SourceFile:953)
+	at ui.utils.d.c.o(SourceFile:226)
+	at ui.utils.v.o(SourceFile:250)
+	at ui.frmwork.y.run(SourceFile:212)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+

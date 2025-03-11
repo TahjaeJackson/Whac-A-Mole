@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Aug 29 11:35:17 2023
+# Process ID: 1576
+# Current directory: O:/ENGS 31/Final_project(final version)/Vivado/Final_project.runs/synth_1
+# Command line: vivado.exe -log FinalProject_shell.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FinalProject_shell.tcl
+# Log file: O:/ENGS 31/Final_project(final version)/Vivado/Final_project.runs/synth_1/FinalProject_shell.vds
+# Journal file: O:/ENGS 31/Final_project(final version)/Vivado/Final_project.runs/synth_1\vivado.jou
+# Running On: mecha-10, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 16953 MB
+#-----------------------------------------------------------
+source FinalProject_shell.tcl -notrace

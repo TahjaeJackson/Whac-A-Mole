@@ -1,0 +1,163 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Aug 29 00:07:30 2023
+# Process ID: 5144
+# Current directory: O:/ENGS 31/Final_project/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9716 O:\ENGS 31\Final_project\Vivado\Final_project.xpr
+# Log file: O:/ENGS 31/Final_project/Vivado/vivado.log
+# Journal file: O:/ENGS 31/Final_project/Vivado\vivado.jou
+# Running On: mecha-10, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 16953 MB
+#-----------------------------------------------------------
+start_gui
+open_project {O:/ENGS 31/Final_project/Vivado/Final_project.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FinalProject_controller_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+refresh_design
+launch_simulation
+refresh_design
+launch_simulation
+refresh_design
+refresh_design
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source FinalProject_controller_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FinalProject_Display_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source FinalProject_Display_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FinalProject_LED_disp_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source FinalProject_LED_disp_tb.tcl
+relaunch_sim
+save_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source FinalProject_LED_disp_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top button_interface [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source button_interface.tcl
+save_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source button_interface.tcl
+save_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source button_interface.tcl
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source button_interface.tcl
+close_sim
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source button_interface.tcl
+close_sim
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source button_interface.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top button_interface_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source button_interface_tb.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sim_1/new/tick_generator_tb.vhd} w ]
+add_files -fileset sim_1 {{O:/ENGS 31/Final_project/Vivado/Final_project.srcs/sim_1/new/tick_generator_tb.vhd}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tick_generator_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source tick_generator_tb.tcl
+run all
+save_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source tick_generator_tb.tcl
+close_sim
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source tick_generator_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FinalProject_Shell_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source FinalProject_Shell_tb.tcl
+save_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+source FinalProject_Shell_tb.tcl
+run all
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+save_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+open_hw_manager
+connect_hw_server -allow_non_jtag
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+connect_hw_server -allow_non_jtag
+close_sim
+current_sim simulation_14
+close_sim
+save_wave_config {O:/ENGS 31/Final_project/Vivado/FinalProject_Shell_tb_behav.wcfg}
+current_sim simulation_11
+close_sim
+current_sim simulation_10
+close_sim
+current_sim simulation_4
+close_sim
+close_sim
